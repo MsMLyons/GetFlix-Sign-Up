@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    background-color: #141414;
+    color: #E50914;       
+}
+
+body {
+    font-family: Bebas Neue, Helvetica, Arial, sans-serif;
+    margin-left: 60px;
+    margin-right: 60px;    
+}
+
+nav {
+    text-align: right;
+    height: 50px;
+    background-image: url(images/flix-logo1.png);
+    background-repeat: no-repeat;
+    background-size: 110px 60px;
+    background-position: left;    
+    background-position-y: center;
+    margin: 20px;
+    padding: 10px;    
+}
+
+nav p, footer h6 {
+    text-align: center;
+}
+
+button, input[type="submit"] {
+    background-color: #141414;
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 5px;
+    color: #E50914; 
+}
+
+.form-section {
+    margin: 20px;
+    padding: 10px;
+    height: 600px;
+    background-image: url(images/bg-blur4.png);
+    background-repeat: no-repeat;
+    background-position: center;        
+    text-align: center;
+}
+
+.form-section h2, h3 {
+    margin: 20px;    
+    -webkit-text-stroke: 0.10px #141414;
+}
+
+.form-section form {
+    margin: 20px;
+    border: 10px solid #141414;
+    border-radius: 5px;
+    width: 300px;
+    background-color: transparent;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#form-bg, #faq {
+    background-color: rgb(51, 51, 51, 0.8);
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+}
+
+#faq p {    
+    padding: 15px;
+}
+
+.search {
+    padding: 15px;
+}
+
+.return {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: none;
+    outline-style: groove;
+    outline-color:#141414;
+}
+
+input, select {
+    margin: 5px;
+    padding: 2px;
+    width: 50%;
+    border-radius: 3px;
+    border: transparent;
+    background-color: lightcyan;
+    color: translucent gray;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    width: 25%;
+    margin: 10px;
+    border: none;
+    outline-style: groove;
+    outline-color:#141414;    
+}
+
+footer {
+    height: 50px;
+}
